@@ -6,6 +6,14 @@ const axiosPath = require('./axiosPath');
 
 const tutorials = [
   {
+    title: 'How to Use void(0)',
+    raw: './tutorials/fundamentals/void-function.md',
+    url: '/tutorials/fundamentals/void-function',
+    description: 'Placeholder Description',
+    tags: ['fundamentals'],
+    date: moment('2021-07-19')
+  },
+  {
     title: 'How to Return a Value From a forEach Loop',
     raw: './tutorials/fundamentals/return-forEach.md',
     url: '/tutorials/fundamentals/foreach-return',
